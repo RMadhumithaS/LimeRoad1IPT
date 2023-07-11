@@ -1,0 +1,147 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-11T16:57:34.006Z",
+        "line": 4,
+        "name": "To search a product for men",
+        "description": "",
+        "id": "limeroad-order;to-search-a-product-for-men",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3251936800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User launch the url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.stepdefinition.Step_Definition.user_launch_the_url(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52118621600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Click on Shop Men and it navigates to men page",
+            "match": {
+              "location": "com.stepdefinition.Step_Definition.user_click_on_shop_men_and_it_navigates_to_men_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-11T16:58:29.855Z",
+        "line": 10,
+        "name": "Shop a Shirt and add to cart",
+        "description": "",
+        "id": "limeroad-order;shop-a-shirt-and-add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 58256051900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on Shirt icon",
+            "match": {
+              "location": "com.stepdefinition.Step_Definition.user_click_on_shirt_icon()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50070605600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User selects Celeb On Trend Train",
+            "match": {
+              "location": "com.stepdefinition.Step_Definition.user_selects_celeb_on_trend_train()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50118447300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User picks Red Solid Casual Shirt",
+            "match": {
+              "location": "com.stepdefinition.Step_Definition.user_picks_red_solid_casual_shirt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50114337400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Selects the size of the shirt",
+            "match": {
+              "location": "com.stepdefinition.Step_Definition.user_selects_the_size_of_the_shirt()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103326100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User click on Add to cart",
+            "match": {
+              "location": "com.stepdefinition.Step_Definition.user_click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoketest"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Limeroad Order",
+    "description": "",
+    "id": "limeroad-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/limeroad.feature",
+    "tags": [
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
